@@ -5,8 +5,8 @@ public class salesTax {
         System.out.println("What is the price of your purchase?");
         System.out.println("The price is $" + priceOfPurchase);
         double calculatedTax = priceOfPurchase * salesTax;
-        System.out.println("the sales tax is $" + calculatedTax);
+        System.out.println("The sales tax is $" + calculatedTax);
         double calculatedTotal = priceOfPurchase * salesTax + priceOfPurchase;
-        System.out.println("the total price is $" + calculatedTotal);
+        System.out.println("The total price is $" + calculatedTotal);
     }
 }
